@@ -24,7 +24,7 @@ public class ExampleVerticle extends AbstractVerticle {
             response.putHeader("content-type", "text/plain");
 
             // Write to the response and end it
-            response.end("Hello Falcon Team ! Welcome to Project Falcon!! ABC");
+            response.end("Hello Falcon Team ! Welcome to Project Falcon!!");
         });
 
         httpServer.requestHandler(router).listen(8080);
